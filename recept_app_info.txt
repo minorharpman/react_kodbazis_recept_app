@@ -1,0 +1,54 @@
+
+lecke:
+https://kodbazis.hu/react-kurzus/fejlessz-onalloan?url=/
+
+
+recept-app-szerver:
+npm install   - 3rd party package install
+node index.js  - start  server
+
+Szerver aktív, http://localhost:9090-es porton
+
+Megszólítható endpointok:
+ 
+Method	Útvonal	Funkcionalitás
+GET	"/api/recipes"	Összes recept kilistázása     - http://localhost:9090/api/recipes
+GET	"/api/recipes/:recipeSlug"	Egyetlen recept lekérése slug alapján
+POST	"/api/recipes"	Új recept létrehozása
+PUT	"/api/recipes/:id"	Recept felülírása id alapján
+DELETE	"/api/recipes/:id"	Recept törlése id alapján
+
+##############################
+React js client side:
+
+npx create-react-app .
+
+Ikonok:
+npm i --save @fortawesome/fontawesome-svg-core???
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/react-fontawesome
+ 
+
+Útvonalválasztó:
+npm i --save react-router-dom
+ 
+
+Megjelenés:
+npm i --save bootstrap
+
+Start:
+npm start
+
+Edit .env file
+
+
+Using .env file in React js: https://medium.com/how-to-react/using-env-file-in-react-js-b2714235e77e
+
+Start:
+npm start
+
+#################################
+
+
+
+        
